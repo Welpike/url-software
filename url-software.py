@@ -12,6 +12,8 @@ while True:
     if url_input_parse.scheme:
         url = quote(url_input, safe='')
         print("Redirect url : ", welpike_redirect_url._replace(query=f"redirect={url}").geturl())
+        print()
+        print()
         print("Software developed by Welpike - https://welpike.github.io")
         print("This software needs python 3.9 or higher and the urllib.parse library.")
         break
