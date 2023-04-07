@@ -2,7 +2,7 @@
 # see https://github.com/Welpike
 from urllib.parse import urlparse, quote
 
-welpike_redirect_url = urlparse("https://welpike.github.io/url.html")
+welpike_redirect_url = urlparse("https://welpike.github.io/url/url.html")
 print("Welcome in the Welpike's redirect urls generator.")
 
 while True:
@@ -14,7 +14,7 @@ while True:
         print("Redirect url : ", welpike_redirect_url._replace(query=f"redirect={url}").geturl())
         print()
         print()
-        print("Software developed by Welpike - https://welpike.github.io")
+        print("Software developed by Welpike - https://welpike.github.io/url")
         print("This software needs python 3.9 or higher and the urllib.parse library.")
         break
     else:
